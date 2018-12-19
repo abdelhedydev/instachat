@@ -2,7 +2,7 @@ import { ApolloServer } from 'apollo-server-express'
 import resolvers from './resolvers'
 import typeDefs from './typeDefs'
 import express from 'express'
-import '../db/connect'
+import './db/connect'
 require('dotenv').config({ path: 'variables.env' })
 
 const app = express()

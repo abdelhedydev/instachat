@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start":"NODE_ENV=prod node -r esm",
-    "dev": "nodemon -r esm"
+    "start": "NODE_ENV=prod node -r esm",
+    "dev": "nodemon -r esm server.js "
   },
   "keywords": [],
   "author": "Abdelhedi hlel",
@@ -16,7 +16,7 @@
     "esm": "^3.0.84",
     "express": "^4.16.4",
     "graphql": "^14.0.2",
-    "mongoose": "^5.3.14",
+    "mongoose": "5.2.8",
     "nodemon": "^1.18.7"
   },
   "devDependencies": {
