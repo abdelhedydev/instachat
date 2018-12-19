@@ -10,6 +10,6 @@ yarn dev
 
 
 ### ESM : 
-ES6 code
+ES6 code 😎
 ### apollo-server-express
 i would like to customize the requests(headers)
