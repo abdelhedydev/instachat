@@ -1,4 +1,5 @@
 node_modules/
 
+variables.env
 
 yarn.lock

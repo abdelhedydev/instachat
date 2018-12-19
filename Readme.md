@@ -8,8 +8,7 @@ yarn dev
 ```
 ## Dependecies
 
-### InCryptostalling
-for generates ID
+
 ### ESM : 
 ES6 code
 ### apollo-server-express
