@@ -4,7 +4,7 @@ npm install
 ```
 ### Start
 ```
-npm start
+yarn dev
 ```
 ## Dependecies
 
