@@ -1,5 +1,5 @@
 import mongoose from 'mongoose'
-import { hash } from 'bcryptjs'
+import { hash, compare } from 'bcryptjs'
 
 const userSchema = new mongoose.Schema({
   email: {
@@ -23,4 +23,7 @@ userSchema.pre('save', async function (next) {
   }
   next()
 })
+userSchema.methods.matchesPassword = function (password) {
+  return compare(password, this.password)
+}
 export default mongoose.model('User', userSchema)
